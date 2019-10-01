@@ -1,0 +1,420 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before, .clearfix:after
+{content:"";
+display:table}
+
+.clearfix:after{
+clear:both;}
+
+.clearfix{
+clear:both;
+*zoom:1;
+}
+
+body{
+    background: rgb(5, 73, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.logo {
+    background: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top:10%;
+    padding:15px;
+}
+
+.text{
+    color:white;
+    padding-top: 3%;
+}
+
+.text h1{
+    padding-bottom: 1%;
+}
+
+.text p{
+    
+    text-shadow: 0.5;
+
+}
+
+.container1{
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    margin:0 auto;
+    margin-top:3%;
+    
+
+}
+
+.nav{
+    padding:3% 0;
+    background: rgba(216, 214, 214, 0.486);
+    
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+.nav li{
+    display: inline;
+    padding: 0 2%;
+}
+#toggle {
+    display: none;
+}
+
+.box60{
+    width: 60%;
+    float: left;
+}
+
+.content{
+    text-align: left;
+    padding: 5% 0 3% 11%;
+}
+
+
+.line {
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: green;
+    background-image: linear-gradient(90deg, #8ae778, #3e9c75, #10682d);
+    margin-bottom: 5%;
+    
+}
+
+
+.content h2 {
+    padding-bottom: 5%;
+}
+.content h3 {
+    padding-bottom: 5%;
+}
+
+.box40{
+    width: 40%;
+    float: right;
+}
+
+.border1{
+    border-bottom: 1px solid gray;
+}
+
+.image{
+    background: url("https://recikliram.mk/images/smoke.gif");
+    background-size: contain;
+    
+    height: 100%;
+    border-radius: 50%;
+}
+.border{
+    border:1px dashed gray;
+    border-radius: 50%;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    
+    display: inline-block;
+    margin: 50px auto;
+}
+.content p{
+    padding-bottom: 5%;
+}
+
+.main-content {
+    text-align: center;
+    margin:20px 0;
+    
+}
+
+
+.main-content h4{
+    font-size: 32px;
+
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border-bottom: 1px solid  rgb(226, 220, 220);
+    width: 100%;
+    margin:0 auto;
+    margin-bottom: 3%;
+}
+
+
+.box{
+    width: 50%;
+    padding: 3% 5%;
+}
+
+
+
+.leftbox{
+    float: left;
+    margin-right: 4%;
+    width: 48%;
+    
+
+}
+
+.rightbox p{
+    margin-bottom: 10px;
+}
+
+.rightbox{
+    text-align: left;
+    border-right: 1px solid rgb(226, 220, 220);
+    width: 48%;
+    float: right;
+    
+
+}
+
+.kanta{
+    font-size: 12px;
+    margin-top:4%;
+    background: rgba(128, 128, 128, 0.274);
+    border-radius: 20px;
+    padding: 5px;
+}
+.rightbox h5{
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+.boxes li img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    border-color: green;
+}
+.boxes img.kanta1{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+    background: transparent;
+}
+
+.leftbox5{
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+.rightbox5{
+    width: 75%;
+    float: right;
+    text-align: left;
+    
+}
+.rightbox5 h5{
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+
+
+.green{
+    width: 90%;
+    margin:0 auto;
+    border-bottom: 1px solid  rgb(226, 220, 220);
+    padding-bottom: 3%;
+}
+
+.green ul{
+    display: flex;
+}
+
+.green li{
+    list-style: none;
+}
+.green li img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    border-color: red;
+}
+
+.rightbox1 h6{
+    color:red;
+    margin:2% 0%;
+}
+
+.rightbox1 h5{
+    font-size: 20px;
+    color: gray;
+    margin:2%;
+}
+
+.mapa h4{
+    font-size: 30px;
+    margin:8% 0%;
+    
+}
+
+.mapa1{
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+}
+.kanta2{
+    width: 33%;
+    margin-left:2%;
+    background: rgba(128, 128, 128, 0.336);
+    border-radius: 10px;
+}
+.kanta3{
+    float: left;
+}
+
+.kanta2 p{
+    padding-top: 7%;
+}
+.mapa1 img{
+    width: 55px;
+    height: 55px;
+   
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+}
+
+.mapa2{
+    margin-top:80px;
+    padding-bottom: 50px;
+    
+}
+
+.footer{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+
+.logo1{
+    width: 100px ;
+    height: 20px;
+}
+
+.bott{
+    margin:5% 0%;
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.container{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+.container1{
+    width: 100%;
+    float: none;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    margin-top: -33px;
+}
+.menu {
+    
+    
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.menu li {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+ 
+}
+#toggle:checked + .menu {
+    display: block;
+    
+}
+
+.box60{
+    width: 100%;
+    float: none;
+    text-align: center;
+
+}
+
+.box40{
+    width: 100%;
+    float: none;
+    text-align: center;
+
+}
+
+.box{
+    width: 100%;
+
+}
+
+.mapa1{
+    width: 100%;
+}
+
+.mapa2 iframe{
+    width: 375px;
+    height: 538px;
+}
+
+
+
+
+
+
+}
