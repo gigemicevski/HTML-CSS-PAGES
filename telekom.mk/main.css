@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before, .clearfix:after
+{content:"";
+display:table}
+
+.clearfix:after{
+clear:both;}
+
+.clearfix{
+clear:both;
+*zoom:1;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.black{
+    background: black;
+    color:gray;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   padding:1.5% 0%;
+}
+
+.navbar li {
+    display: inline;
+    padding-right: 10px;
+
+}
+
+.purple{
+    background: #e20074;
+    color: white;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 0%;
+
+}
+
+.text{
+    padding-top: 1%;
+}
+
+.border{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0%;
+    
+    
+}
+
+.navleft{
+    padding-top: 10px;
+}
+
+.navleft li {
+    display: inline;
+    padding-right: 10px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 40px;
+    
+}
+.nav10 li{
+    display: inline;
+    
+}
+#toggle {
+    display: none;
+}
+
+.navbar3 {
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.486);
+    
+   
+  }
+  
+.navbar3 a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    
+  }
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.border1{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+}
+.navbar4{
+    padding: 1% 1% 1% 0%;
+}
+
+.navbar4 li{
+    display: inline;
+    color: rgba(128, 128, 128, 0.514);
+}
+
+
+
+.navbar5{
+    display: flex;
+    
+}
+
+
+.navbar6 {
+    overflow: hidden;
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    
+  }
+
+.firstnav{
+    width: 20%;
+    
+}
+
+
+  
+.navbar6 a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.dropdown1 {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown1 .dropbtn1 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color:black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content1 a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+
+.maincontainer{
+    display: flex;
+    height: 80%;
+}
+.box20{
+    width: 20%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.055);
+    
+}
+
+.box20 h5{
+    margin:5%;
+    font-size: 22px;
+}
+
+.box20 input{
+    margin-bottom: 15px;
+}
+.box80{
+    width: 80%;
+    display: flex;
+}
+
+.box33{
+    width: 33%;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    background-image:url("https://cdn.pixabay.com/photo/2017/01/18/15/51/paper-1990111__340.jpg");
+    
+    text-align: center;
+    position: relative;
+    margin:5px;
+}
+
+.naslov{
+    margin:20px 0px;
+
+}
+
+.cena1{
+    margin-top:15px;
+    width: 25%;
+    margin-left: 35%;
+}
+
+.cena1 h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.text3{
+    color: purple;
+    padding-top:15px;
+}
+
+.kopce button{
+    padding: 10px 15px;
+    background: purple;
+    border-radius: 5px;
+    color:white;
+}
+
+
+.navbar{
+
+
+}
+.info{
+    position: absolute;
+    top:1;
+    right: 1;
+}
+.info ul{
+    padding-top: 3%;
+    
+}
+
+.info li{
+    display: inline;
+    padding-left: 5%;
+    font-size: 20px;
+    
+}
+.glavno{
+    list-style-type:none;
+    display: flex;
+    flex-flow:row nowrap;
+}
+
+li{
+    list-style-type: none;
+}
+.D{
+    display: none;
+}
+.balkan:hover .D{
+    display: block;
+    background: rgba(0, 0, 0, 0.452);
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .container{
+        width: 100%;
+        float: none;
+        text-align: center;
+        
+    }
+    .navbar{
+        display: block;
+        padding-bottom: 10px;
+
+    }
+    .bar{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+        margin-top:-25px;
+    }
+    .menu {
+        
+        
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu li {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    .navbar5{
+        display: block;
+    }
+    .firstnav{
+        width: 100%;
+    }
+
+    .maincontainer{
+        display: block;
+    }
+    .box20{
+        width: 100%;
+    }
+    .box80{
+        display: block;
+        width: 100%;
+    }
+    .box33{
+        width: 100%;
+    }
+}
